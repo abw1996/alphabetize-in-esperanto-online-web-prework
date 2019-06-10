@@ -4,6 +4,6 @@ def alphabetize(arr)
   alphabetized = arr.sort_by do |word|
     alpha.index(word(0))
     binding.pry
-    end
+    
   end
 end
